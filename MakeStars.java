@@ -14,7 +14,9 @@ public class MakeStars{
               c+="*";
             }
           }
-          c+=" ";
+          if (a.hasNext()){
+            c+=" ";
+          }
         }
         if (n.hasNextLine()){
           c+="\n";

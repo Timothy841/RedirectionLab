@@ -8,15 +8,14 @@ public class PigLatin{
       while(n.hasNextLine()){
         Scanner a = new Scanner(n.nextLine());
         while (a.hasNext()){
-          String b = a.next();
-          System.out.print(pigLatinBest(b));
+          System.out.print(pigLatinBest(a.next()));
           if (a.hasNext()){
             System.out.print(" ");
           }
-      }
-      if (n.hasNextLine()){
-        System.out.println();
-      }
+        }
+        if (n.hasNextLine()){
+          System.out.println();
+        }
       //use hasNextLine()/nextLine() to loop over
       //all of the data
 

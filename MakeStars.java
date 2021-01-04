@@ -10,9 +10,7 @@ public class MakeStars{
         while (a.hasNext()){
           String b = a.next();
           for (int i = 0; i<b.length();i++){
-            if (b.charAt(i)!=' '){
-              c+="*";
-            }
+            c+="*";
           }
           if (a.hasNext()){
             c+=" ";
